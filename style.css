@@ -1,0 +1,125 @@
+body {
+  background-color: lightgoldenrodyellow;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+hr {
+  border: 1px solid black;
+}
+header {
+  padding: 10px 0;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav ul {
+  border: 2px solid none;
+  background-color: #f0bd18;
+  border-radius: 10px;
+  margin-top: 2rem;
+  list-style: none;
+  text-align: center;
+  padding: 12px;
+}
+nav li {
+  display: inline;
+  margin: 20px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #1835f0;
+}
+nav a:hover {
+  background-color: #1835f0;
+  color: #f0bd18;
+  padding: 6px;
+  font-size: 20px;
+}
+.one-section {
+  border: 2px solid #f0bd18;
+  padding: 30px;
+  border-radius: 12px;
+  background-image: url("img/joias_png.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #f1f2f6;
+  font-weight: bolder;
+  padding-bottom: 12px;
+}
+.one-article p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 30px;
+  width: 900px;
+  height: 80px;
+  font-size: 18px;
+  color: #f1f2f6;
+  font-weight: bolder;
+  line-height: 1.5rem;
+  font-weight: 300;
+  background-color: #4058f15c;
+  letter-spacing: 0.08rem;
+}
+.two-section {
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.two-article {
+  padding: 10px 10px;
+  margin: 10px 20px;
+  border-radius: 12px;
+  background-color: #f0bd18;
+}
+.two-article > h2 {
+  font-size: 28px;
+  margin-left: 45px;
+}
+.two-article > p {
+  font-size: 18px;
+  margin-left: 45px;
+  padding-right: 20px;
+}
+.two-article > p > a {
+  font-size: 18px;
+}
+.two-article > p > a:visited {
+  font-size: 18px;
+}
+.two-article > ul {
+  margin-left: 25px;
+  padding-right: 20px;
+}
+.two-article > ul > li {
+  font-size: 16px;
+  margin-left: 25px;
+  padding-right: 20px;
+}
+.container-image-two-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  margin-top: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+footer > div > p {
+  font-size: 18px;
+}
